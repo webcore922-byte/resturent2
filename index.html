@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مطعم ميرلو | Merlot Restaurant</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top py-3">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-2 text-white" href="#"><span class="accent-text">MER</span>LOT</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-none d-lg-block">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link text-white" href="#hero">الرئيسية</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#about">عن المطعم</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#menu">المنيو</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#special">العروض</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#reservation">الحجز</a></li>
+                </ul>
+                <a href="#reservation" class="btn btn-custom">اطلب الآن</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="mobileMenu">
+        <div class="offcanvas-header border-bottom border-secondary">
+            <h5 class="offcanvas-title fw-bold accent-text">MERLOT</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="navbar-nav">
+                <li class="nav-item" data-bs-dismiss="offcanvas"><a class="nav-link" href="#hero">الرئيسية</a></li>
+                <li class="nav-item" data-bs-dismiss="offcanvas"><a class="nav-link" href="#about">عن المطعم</a></li>
+                <li class="nav-item" data-bs-dismiss="offcanvas"><a class="nav-link" href="#menu">المنيو</a></li>
+                <li class="nav-item" data-bs-dismiss="offcanvas"><a class="nav-link" href="#special">العروض</a></li>
+                <li class="nav-item" data-bs-dismiss="offcanvas"><a class="nav-link" href="#reservation">الحجز</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <header id="hero" class="hero-bg d-flex align-items-center text-center">
+        <div class="container">
+            <h1 class="display-1 fw-bold mb-4">فن <span class="accent-text">الطهي</span> الرفيع</h1>
+            <p class="lead mb-5 fs-3">نقدم لك تجربة تتجاوز مجرد تناول الطعام.</p>
+            <a href="#menu" class="btn btn-custom btn-lg px-5">استكشف القائمة</a>
+        </div>
+    </header>
+
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-5 mb-lg-0 text-center">
+                    <img src="./images/about.avif" class="img-fluid about-img" alt="About Us">
+                </div>
+                <div class="col-lg-6 px-lg-5">
+                    <h2 class="display-5 fw-bold mb-4">قصة <span class="accent-text">ميرلو</span></h2>
+                    <p class="fs-5 text-body">بدأ شغفنا في مطعم ميرلو منذ عام 1995، حيث نجمع بين الأصالة والحداثة في تحضير الأطباق العالمية. نحن نؤمن أن جودة المكونات هي سر كل وجبة استثنائية.</p>
+                    <p class="fs-5 text-body mt-3">نحرص على خلق أجواء فاخرة ومريحة تليق بعملائنا، مع فريق من أمهر الطهاة لضمان تقديم تجربة ملكية في كل زيارة.</p>
+                    <div class="mt-4">
+                        <div class="d-flex align-items-center mb-2"><span class="accent-text me-2">✔</span> جودة عالمية</div>
+                        <div class="d-flex align-items-center mb-2"><span class="accent-text me-2">✔</span> طهاة محترفون</div>
+                        <div class="d-flex align-items-center mb-2"><span class="accent-text me-2">✔</span> أجواء هادئة</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="section-padding bg-black">
+        <div class="container text-center mb-5">
+            <h2 class="display-4 fw-bold">قائمة <span class="accent-text">الطعام</span> الشاملة</h2>
+            <p class="text-body mt-2">اختر ما يناسب ذوقك من تشكيلتنا الواسعة</p>
+        </div>
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-3">
+                    <div class="card card-custom">
+                        <div class="img-container"><img src="./images/photo-4.avif" alt="Dish"></div>
+                        <div class="p-3"><h6>سلطة الأفوكادو</h6><span class="fw-bold accent-text">180 EGP</span></div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card card-custom">
+                        <div class="img-container"><img src="./images/photo-3.avif" alt="Dish"></div>
+                        <div class="p-3"><h6>ريب آي ستيك</h6><span class="fw-bold accent-text">750 EGP</span></div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card card-custom">
+                        <div class="img-container"><img src="./images/photo-2.avif" alt="Dish"></div>
+                        <div class="p-3"><h6>بيتزا مارغريتا</h6><span class="fw-bold accent-text">240 EGP</span></div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card card-custom">
+                        <div class="img-container"><img src="./images/photo-1.jpg" alt="Dish"></div>
+                        <div class="p-3"><h6>شوربة سي فود</h6><span class="fw-bold accent-text">290 EGP</span></div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card card-custom">
+                        <div class="img-container"><img src="./images/photo-8.avif" alt="Dish"></div>
+                        <div class="p-3"><h6>تشيز كيك</h6><span class="fw-bold accent-text">160 EGP</span></div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card card-custom">
+                        <div class="img-container"><img src="./images/OIP.jpg" alt="Dish"></div>
+                        <div class="p-3"><h6>جمبري مشوي</h6><span class="fw-bold accent-text">620 EGP</span></div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card card-custom">
+                        <div class="img-container"><img src="./images/photo111.jpg" alt="Dish"></div>
+                        <div class="p-3"><h6>رافيولي إيطالي</h6><span class="fw-bold accent-text">310 EGP</span></div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card card-custom">
+                        <div class="img-container"><img src="./images/photo-5.avif" alt="Dish"></div>
+                        <div class="p-3"><h6>مشويات مشكلة</h6><span class="fw-bold accent-text">580 EGP</span></div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card card-custom">
+                        <div class="img-container"><img src="./images/photo-12.avif" alt="Dish"></div>
+                        <div class="p-3"><h6>تورتة الشوكولاتة</h6><span class="fw-bold accent-text">145 EGP</span></div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card card-custom">
+                        <div class="img-container"><img src="./images/photo-11.avif" alt="Dish"></div>
+                        <div class="p-3"><h6>سلطة يونانية</h6><span class="fw-bold accent-text">130 EGP</span></div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card card-custom">
+                        <div class="img-container"><img src="./images/OIP (1).jpg" alt="Dish"></div>
+                        <div class="p-3"><h6>دجاج مشوي</h6><span class="fw-bold accent-text">390 EGP</span></div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card card-custom">
+                        <div class="img-container"><img src="./images/photo-9.avif" alt="Dish"></div>
+                        <div class="p-3"><h6>نودلز بالخضار</h6><span class="fw-bold accent-text">210 EGP</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="special" class="section-padding">
+        <div class="container text-center">
+            <div class="p-5 rounded-4 shadow" style="background: linear-gradient(rgba(128,0,0,0.8), rgba(128,0,0,0.8)), url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=80&w=1000'); background-size: cover;">
+                <h2 class="display-5 fw-bold text-white mb-4">عرض الويك إيند</h2>
+                <p class="fs-4 text-white">احصل على طبق حلو مجاني عند طلبك لأي وجبة رئيسية</p>
+                <a href="#reservation" class="btn btn-light btn-lg mt-3 fw-bold">احجز طاولتك</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="reservation" class="section-padding">
+        <div class="container text-center">
+            <div class="card card-custom p-4 p-md-5 mx-auto" style="max-width: 700px;">
+                <h2 class="mb-4 text-white">حجز طاولة</h2>
+                <form class="row g-3 text-start">
+                    <div class="col-md-6"><label class="small text-muted">الاسم الكامل</label><input type="text" class="form-control py-3"></div>
+                    <div class="col-md-6"><label class="small text-muted">رقم الهاتف</label><input type="tel" class="form-control py-3"></div>
+                    <div class="col-md-6"><label class="small text-muted">التاريخ</label><input type="date" class="form-control py-3"></div>
+                    <div class="col-md-6"><label class="small text-muted">عدد الأفراد</label><input type="number" class="form-control py-3"></div>
+                    <div class="col-12"><button type="submit" class="btn btn-custom w-100 py-3 mt-3">تأكيد الحجز</button></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-5 bg-black text-center border-top border-dark">
+        <div class="container">
+            <h2 class="accent-text fw-bold mb-4">MERLOT</h2>
+            <p class="text-secondary small">© 2026 جميع الحقوق محفوظة لمطعم ميرلو.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
